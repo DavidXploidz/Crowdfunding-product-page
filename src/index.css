@@ -149,6 +149,12 @@ input[type=radio] {
         z-index: 10;
     }
 }
+.fondo-oscuro{
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    background-color: rgb(0 0 0 / 50%);
+}
 
 /* Precios Componente */
 .barra-precios{

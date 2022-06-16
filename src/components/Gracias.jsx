@@ -15,6 +15,7 @@ const Gracias = () => {
 
     <>
     {mostrarGracias && (
+      <>
       <div className='gracias rounded-lg shadow-2xl' >
           <img src={graciasIMG} alt="Icon check" />
           <h3 className='my-5'>Thanks for your support!</h3>
@@ -24,6 +25,10 @@ const Gracias = () => {
           </p>
           <button onClick={cerrarGracias} className='btn-project mt-10'>Got it!</button>
       </div>
+      <div className='fondo-oscuro'>
+
+      </div>
+      </>
     )}
      
     </>

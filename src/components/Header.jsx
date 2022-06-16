@@ -22,14 +22,15 @@ const mostrarMenu = () => {
             </ul>
             <img onClick={mostrarMenu} src={mostrarHam ? cerrar : ham} alt="Icon menu ham" id='menuHam' />
         </div>
+        
         {mostrarHam && (
-            <div className='menuOculto rounded-lg '>
-                <ul className='divide-y divide-slate-200 font-semibold'>
-                    <li className='p-4 '>About</li>
-                    <li className='p-4 '>Discover</li>
-                    <li className='p-4 '>Get Started</li>
-                </ul>
-            </div>
+                <div className='menuOculto rounded-lg '>
+                    <ul className='divide-y divide-slate-200 font-semibold'>
+                        <li className='p-4 '>About</li>
+                        <li className='p-4 '>Discover</li>
+                        <li className='p-4 '>Get Started</li>
+                    </ul>                  
+                </div>      
         )}
         
     </header>
